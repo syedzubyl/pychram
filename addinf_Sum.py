@@ -4,6 +4,7 @@ def arr_sum(arr, size):
     else:
         return arr[size - 1] + arr_sum(arr, size - 1)
 
+
 n = int(input("Enter the number for array size: "))
 a = []
 
