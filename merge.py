@@ -29,7 +29,6 @@ def merge(left, right):
 
     return merged
 
-
 print('MERGE SORT METHOD')
 print('--------------------------------')
 print('')
