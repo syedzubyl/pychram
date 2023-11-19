@@ -1,4 +1,8 @@
+# QUEUE ADT
+# initializing empty myQueue
+
 myQueue = list()
+queueSize = 10
 
 
 def isEmpty(myQueue):
@@ -32,9 +36,9 @@ while (True):
     if choice == 1:
         n = int(input("Enter the number of elements for enqueue operation:"))
         for i in range(0, n):
-            element = input("Enter the number to add items to the queue")
+            element = input("Enter the number to add items to the queue:")
             myQueue.append(element)
-        print("Number of Items added to the Queue", n)
+        print("Number of Items added to the Queue:", n)
         continue
     elif choice == 2:
         qitem = dequeue(myQueue)

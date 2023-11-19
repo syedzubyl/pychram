@@ -21,19 +21,21 @@ def partion(arr, low, high):
             break
         arr[low], arr[j] = arr[j], arr[low]
         return j
-    print("QUICK SORT METHODS:")
-    print("-------------------")
-    print(" ")
-    input_string = input("ENTER the elements of a list separted by spaces: \n")
-    data = [int(x) for x in input_string.split()]
 
-    print("assepted data:", data)
-    print(" ")
-    print("Unsorted Array:")
-    print(data)
-    size = len(data)
 
-    quickSort(data, 0, size - 1)
-    print(" ")
-    print("Sorted Array using Quick sort in assecending order:")
-    print(data)
+print("QUICK SORT METHODS:")
+print("-------------------")
+print(" ")
+input_string = input("ENTER the elements of a list separted by spaces: \n")
+data = [int(x) for x in input_string.split()]
+
+print("assepted data:", data)
+print(" ")
+print("Unsorted Array:")
+print(data)
+size = len(data)
+
+quickSort(data, 0, size - 1)
+print(" ")
+print("Sorted Array using Quick sort in assecending order:")
+print(data)
