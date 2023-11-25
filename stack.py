@@ -1,6 +1,6 @@
 # Initial empty STACK
 stack = []
-stacksize = 5
+stacksize = 10
 
 # Display Menu with Choices
 while True:
