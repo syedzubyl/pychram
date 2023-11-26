@@ -1,5 +1,5 @@
 #pycharm community
-#syedzubyl :-https://github.com/syedzubyl/pychram
+#syedzubyl :--> https://github.com/syedzubyl/pychram
 
 def merge_sort(arr):
     if len(arr) <= 1:
