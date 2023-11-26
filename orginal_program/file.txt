@@ -1,0 +1,9 @@
+Rajesh,1,A
+Hussain,2,A
+Samuel,3,B
+umar,4,D
+syed,5,B
+mafaz,6,C
+asif,7,A
+hassan,8,A
+jaya,9,C
